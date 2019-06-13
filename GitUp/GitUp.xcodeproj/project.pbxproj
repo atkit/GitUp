@@ -19,8 +19,6 @@
 		E21DCAF81B255471006424E8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C3394419F85D4B00063D95 /* libz.dylib */; };
 		E23C9B291B92104500ACA5A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B14B561A88102C00003E64 /* Security.framework */; };
 		E25EBCEB1AA3F8B700D3AF44 /* Application.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25EBCEA1AA3F8B700D3AF44 /* Application.xcassets */; };
-		E2653D251A5B2FBD006A9871 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2653D241A5B2FBD006A9871 /* Sparkle.framework */; };
-		E267E1F31B84D93300BAB377 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = E2653D241A5B2FBD006A9871 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E267E26B1B84E07E00BAB377 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B14B561A88102C00003E64 /* Security.framework */; };
 		E267E2741B84E42A00BAB377 /* Help.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2BDA0671AD47A2F00E69729 /* Help.plist */; };
 		E28A16E51B87023200218332 /* GitUpKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28A16E01B87021600218332 /* GitUpKit.framework */; };
@@ -35,8 +33,6 @@
 		E2C5672D1A6D98BC00ECFE07 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C5672C1A6D98BC00ECFE07 /* WindowController.m */; };
 		E2E3C9A01D771E7600AA9A62 /* GARawTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E3C99F1D771E7600AA9A62 /* GARawTracker.m */; };
 		E2E3C9A21D771E9D00AA9A62 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3C9A11D771E9D00AA9A62 /* SystemConfiguration.framework */; };
-		E2E3C9A41D77227F00AA9A62 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3C9A31D77227F00AA9A62 /* HockeySDK.framework */; };
-		E2E3C9A51D77228F00AA9A62 /* HockeySDK.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3C9A31D77227F00AA9A62 /* HockeySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,8 +92,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E267E1F31B84D93300BAB377 /* Sparkle.framework in Copy Frameworks */,
-				E2E3C9A51D77228F00AA9A62 /* HockeySDK.framework in Copy Frameworks */,
 				E28A16E61B87023C00218332 /* GitUpKit.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
@@ -170,8 +164,6 @@
 				E2C338D719F85C2E00063D95 /* Cocoa.framework in Frameworks */,
 				E267E26B1B84E07E00BAB377 /* Security.framework in Frameworks */,
 				E28A16E51B87023200218332 /* GitUpKit.framework in Frameworks */,
-				E2E3C9A41D77227F00AA9A62 /* HockeySDK.framework in Frameworks */,
-				E2653D251A5B2FBD006A9871 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +333,6 @@
 					};
 					E2C338AA19F8562F00063D95 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = 88W3E55T4B;
 					};
 				};
 			};
@@ -350,6 +341,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = E2C338A219F8562F00063D95;
@@ -535,6 +527,7 @@
 				BUNDLE_VERSION = 0;
 				BUNDLE_VERSION_STRING = 1.0.11;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 855P9H2E9F;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Third-Party";
 				GCC_DYNAMIC_NO_PIC = YES;
 				INFOPLIST_FILE = Application/Info.plist;
@@ -552,6 +545,7 @@
 				BUNDLE_VERSION = 0;
 				BUNDLE_VERSION_STRING = 1.0.11;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 855P9H2E9F;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Third-Party";
 				GCC_DYNAMIC_NO_PIC = YES;
 				INFOPLIST_FILE = Application/Info.plist;
